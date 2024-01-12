@@ -45,7 +45,7 @@
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-image: url(https://images.unsplash.com/photo-1591418528027-7e854ba7418b?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -94,7 +94,7 @@
 }
 
 .main-footer {
-    background-color: #000;
+    background-color: #2D9CDB;
     color: white;
 }
 
@@ -163,6 +163,11 @@
     border-bottom: none;
 }*/
 
+.tour-row1 {
+    border-bottom: none;
+    padding-bottom: 1.5em;
+}
+
 .tour-item {
     display: inline-block;
     padding-right: .5em;
@@ -184,5 +189,16 @@
 
 .tour-btn {
     max-width: 19%;
-    padding: 0px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
 }
